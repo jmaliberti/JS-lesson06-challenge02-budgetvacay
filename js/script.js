@@ -1,5 +1,5 @@
-var tripInfoButton = document.querySelector("trip-info");
-var dailyBudget = document.querySelector("daily-budget");
+var tripInfoButton = document.querySelector(".trip-info");
+var dailyBudget = document.querySelector(".daily-budget");
 
 var tripInfo = function () {
     var totalBudget = Number(prompt(`What is your total budget?`))
